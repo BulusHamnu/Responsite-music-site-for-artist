@@ -40,11 +40,23 @@
             <button class="contactBtn">Contact Me</button>
         </section>
     </main>
+    <form action="https:formspree.io/f/xgvezbly" class="contactForm" method="POST">
+        <div class="close-popup"><img src="/images/icons/close.png" alt="close"></div>
+        <h2>Contact Form</h2><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required placeholder="Email.."><br>
+        <label for="name">Name:</label>
+        <!-- <input type="text" id="name" name="name" required placeholder="Name.."><br>
+        <label for="message">Message:</label> -->
+        <textarea name="message" id="message"></textarea>
+        <button type="submit">Send</button>
+    </form>
     <footer>
         <div class="footer-icon-container"><a href="#"><img src="images/icons/facebookBlue.jpg" alt="Facebook"></a></div>
         <div class="footer-icon-container"><a href="#"><img src="images/icons/Instagram.jpg" alt="instagram"></a></div>
         <div class="footer-icon-container"><a href="#"><img src="images/icons/youtubeBlue.jpg" alt="Youtube"></a></div>
         <div class="footer-icon-container"><a href="#"><img src="images/icons/whatsApp.jpg" alt="WhatsApp"></a></div>
     </footer>
+    <script src="/src/index.js"></script>
 </body>
 </html>
