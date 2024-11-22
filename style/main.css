@@ -10,6 +10,23 @@
     align-items: center;
     height: 4rem;
 }
+.menu-button {
+    height: 40px;
+    width: 40px;
+    display: none;
+}
+.menu-button img {
+    height: 100%;
+    width: 100%;
+}
+.close-btn {
+    height: 40px;
+    width: 40px;
+}
+.close-btn img {
+    height: 100%;
+    width: 100%;
+}
 ul {
     display: flex;
 }
@@ -78,4 +95,68 @@ footer {
 }
 .footer-icon-container a :hover {
     border: 0.2rem solid  #9EB8D9;
+}
+
+.side-nav {
+    display: none;
+    max-height:100vh ;
+    width: 13rem;
+    height: 100vh;
+    align-items: flex-start;
+}
+.side-nav ul {
+    display: flex;
+    flex-direction: column;
+}
+.side-nav ul li {
+    margin-bottom: 2rem;
+}
+h5 {
+    display: none;
+}
+
+
+
+@media (max-width: 430px) {
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-nav ul {
+        display: none;
+
+    }
+    .main-nav {
+        justify-content: space-between;
+    }
+    .side-nav {
+        position: absolute;
+            right: 0;
+        /* display: flex; */
+        z-index: 1;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .side-nav ul {
+        display: block;
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .menu-button {
+        display: block;
+        margin-right: 2rem;
+    }
+    h5 {
+        display: block;
+        margin-left: 2rem;
+    }
+    footer {
+        margin-top: 5rem;
+    }
+    .close-btn {
+        margin: 0;
+    }
 }

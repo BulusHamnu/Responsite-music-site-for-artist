@@ -4,9 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yo demy events</title>
-    <link rel="stylesheet" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Island+Moments&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/event.css">
+    <link rel="stylesheet" href="/style/main.css">
 </head>
 <body>
-    
+    <header>
+        <nav class="side-nav main-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="music.html">MUSIC</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+            </ul>
+            <div class="close-btn"><img src="/images/icons/close.png" alt=""></div>
+        </nav>
+        <nav class="main-nav">
+            <h5>Demy Thekidd</h5>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="music.html">MUSIC</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+            </ul>
+            <div class="menu-button open-btn"><img src="/images/icons/menu.png" alt=""></div>
+        </nav>
+    </header>
+    <main>
+        <section class="no-event-show">
+            <h3>Sorry there is no event at the moment!!</h3>
+            <!-- Animated Sad Face SVG -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="150" height="150">
+              <!-- Face -->
+              <circle cx="50" cy="50" r="45" fill="#9EB8D9" stroke="black" stroke-width="2" />
+              
+              <!-- Eyes -->
+              <circle cx="35" cy="40" r="5" fill="black" />
+              <circle cx="65" cy="40" r="5" fill="black" />
+              
+              <!-- Mouth (sad) -->
+              <path d="M30,60 Q50,80 70,60" stroke="black" stroke-width="3" fill="transparent" />
+           </svg>
+        </section>
+
+    </main>
 </body>
 </html>
