@@ -1,0 +1,6 @@
+﻿Font 
+Bold 2.125rem (34px) for h1 Island Moments
+Bold 1.25rem (20px) for h4 Inria Sans
+H4 : Raw talent. Real stories. Unmatched energy. Step into the world of Nazi Rex and experience rap like never before
+
+
