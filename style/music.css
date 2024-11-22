@@ -1,0 +1,109 @@
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.music-link {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    gap: 2rem;
+    justify-content: center;
+    /* margin-top: 1rem; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* width: 18rem; */
+    height: 25rem;
+    border-radius: 0.3rem;
+    font-family: "Inria Sans",sans-serif;
+    font-weight: 500;
+}
+.right-side {
+    margin-top: 1.5em;
+}
+.song-cover {
+    height: 13rem;
+    width: 13rem;
+}
+.song-cover img {
+    height: 100%;
+    width: 100%;
+}
+.text {
+    font-size: 15px;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.song-name {
+    font-weight: 600;
+}
+.link-headertext {
+    margin-top: 1.5em;
+    /* margin-bottom: 1.5em; */
+    font-size: 15px;
+}
+.icon-img {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 0.3rem;
+    box-shadow: 0.05rem 0.05rem white;
+    /* margin: 1rem; */
+}
+.icon-img img{
+    height: 100%;
+    width: 100%;
+}
+.link {
+    display: flex;
+    align-items: center;
+    background-color: #9EB8D9;
+    /* width: 13rem; */
+    height: 3rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    box-shadow: 0.05rem 0.05rem black;
+}
+.a-link {
+    text-decoration: none;
+}
+.link:hover {
+    transform: translateX(0.5rem);
+    border: 1rem solid #9EB8D9;
+}
+.link div,p {
+    margin: 0.5rem;
+}
+.link p {
+    font-size: 15px;
+}
+.links-of-songs {
+    background-color: #9EB8D9;
+    height: 100vh;
+    width: 12rem;
+    text-align: center;
+    max-height: 100vh;
+}
+.links-of-songs h4 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-family: "Inria Sans",sans-serif;
+    font-weight: 600;
+}
+.first-h2 {
+    margin-top: 2rem;
+  }
+
+.links-of-songs {
+    font-family: "Inria Sans",sans-serif;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
