@@ -25,6 +25,7 @@ main {
 .song-cover {
     height: 13rem;
     width: 13rem;
+    border: 0.2rem solid rgb(66, 57, 57);
 }
 .song-cover img {
     height: 100%;
@@ -76,6 +77,14 @@ main {
 .link div,p {
     margin: 0.5rem;
 }
+.singles a {
+    font-size: 15px;
+    padding: 0.1em;
+    width: fit-content;
+    font-family: "Inria Sans",sans-serif;
+    font-weight: 500;
+    transition: background-color 0.2s linear;
+}
 .link p {
     font-size: 15px;
 }
@@ -101,6 +110,26 @@ main {
     font-weight: 500;
 }
 .links-of-songs div a {
+    transition: background-color 0.2s linear;
+}
+.singles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.albums {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.albums a {
+    font-size: 15px;
+    padding: 0.1em;
+    width: fit-content;
+    font-family: "Inria Sans",sans-serif;
+    font-weight: 500;
     transition: background-color 0.2s linear;
 }
 
