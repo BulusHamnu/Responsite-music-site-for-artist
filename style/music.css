@@ -64,12 +64,13 @@ main {
     border-radius: 0.3rem;
     margin-bottom: 1rem;
     box-shadow: 0.05rem 0.05rem black;
+    transition: transform 0.2s linear;
 }
 .a-link {
     text-decoration: none;
 }
 .link:hover {
-    transform: translateX(0.5rem);
+    transform: translateX(0.3rem);
     border: 1rem solid #9EB8D9;
 }
 .link div,p {
@@ -82,6 +83,7 @@ main {
     background-color: #9EB8D9;
     width: 12rem;
     text-align: center;
+    margin-top: 1rem;
     padding-bottom: 3rem;
 }
 .links-of-songs h4 {
@@ -97,6 +99,9 @@ main {
 .links-of-songs {
     font-family: "Inria Sans",sans-serif;
     font-weight: 500;
+}
+.links-of-songs div a {
+    transition: background-color 0.2s linear;
 }
 
 

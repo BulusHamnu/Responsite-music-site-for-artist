@@ -13,18 +13,7 @@ h3 {
     margin: 2rem;
 }
 
-svg {
-    display: block;
-    animation: bounce 3s ease-in-out infinite;
-  }
-@keyframes bounce {
-0%, 100% {
-    transform: scale(1);
-}
-50% {
-    transform: scale(1.1);
-}
-}
+
 
 
 

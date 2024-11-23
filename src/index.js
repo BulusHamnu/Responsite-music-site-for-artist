@@ -3,14 +3,14 @@ const contactForm = document.querySelector(".contactForm");
 const closePopup = document.querySelector(".close-popup");
 
 
+
 contactMeBtn.addEventListener("click", function() { 
-    contactForm.style.display = "flex";
+    contactForm.classList.add("show-popup-entry")
  });
 
 closePopup.addEventListener("click", function() { 
-    contactForm.style.display = "none";
+    contactForm.classList.remove("show-popup-entry")
  });
 
 
 
- 
