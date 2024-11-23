@@ -57,6 +57,7 @@ svg {
 }
 ul {
     display: flex;
+    margin-right: 3rem;
 }
 li {
     list-style-type: none;
