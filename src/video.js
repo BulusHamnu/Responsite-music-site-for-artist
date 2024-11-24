@@ -36,8 +36,7 @@ async function getVideo () {
 }
 
 
-// getVideo()
-initiate ()
+getVideo()
 
 
 function initiate () {

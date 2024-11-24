@@ -55,7 +55,7 @@ svg {
     height: 100%;
     width: 100%;
 }
-ul {
+.main-bar ul {
     display: flex;
     margin-right: 3rem;
 }
@@ -132,19 +132,47 @@ footer {
 }
 
 .side-nav {
-    display: none;
+    position: fixed;
+        top: 0;
+        right: -10rem;
+    /* transform: translateX(700px); */
+    display: flex;
     max-height:100vh ;
-    width: 13rem;
+    width: 10rem;
     height: 100vh;
-    align-items: flex-start;
-    transition: display 0.2s linear;
+    transition: 0.5s ease-in-out;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.side-nav.navActive {
+    right: 0rem;
 }
 .side-nav ul {
     display: flex;
     flex-direction: column;
 }
+.side-nav ul {
+    display: block;
+    text-align: center;
+    margin-top: 3rem;
+}
 .side-nav ul li {
     margin-bottom: 2rem;
+}
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    display: none;
+  }
+  
+.backdrop.active {
+    display: block;
 }
 h5 {
     display: none;
@@ -168,6 +196,7 @@ form {
     font-family: "Inria Sans",sans-serif;
     font-weight: 500;
     transition: opacity 1.5s ease;
+    z-index: 2;
 }
 .show-popup-entry {
     opacity: 1;
@@ -234,7 +263,9 @@ textarea {
     width:fit-content;
     margin: 0;
 }
-
+.close-btn {
+    margin-bottom: 78rem;
+}
 
 
 @media (max-width: 430px) {
@@ -244,26 +275,18 @@ textarea {
         justify-content: center;
         align-items: center;
     }
-    .main-nav ul {
+    .main-bar ul {
         display: none;
 
     }
     .main-nav {
         justify-content: space-between;
     }
-    .side-nav {
-        position: absolute;
-            right: 0;
-        z-index: 1;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-    }
-    .side-nav ul {
+    /* .side-nav ul {
         display: block;
         text-align: center;
         margin-top: 3rem;
-    }
+    } */
     .menu-button {
         display: block;
         margin-right: 2rem;
@@ -275,7 +298,5 @@ textarea {
     footer {
         margin-top: 5rem;
     }
-    .close-btn {
-        margin: 0;
-    }
+    
 }

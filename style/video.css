@@ -53,14 +53,14 @@ iframe {
 @media  (max-width: 430px) {
     .forward {
         position: absolute;
-        top: 43%;
+        top: 55%;
     }
     .backward {
         position: absolute;
-        top: 43%;
+        top: 55%;
     }
     iframe {
-        width: 380px;
+        width: 350px;
         height: 255px;
     }
 }
