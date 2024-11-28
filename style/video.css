@@ -69,6 +69,23 @@ iframe {
 @media  (max-width: 430px) {
     .forward {
         position: absolute;
+        top: 45%;
+        right: 28%;
+    }
+    .backward {
+        position: absolute;
+        top: 45%;
+        left: 28%;
+    }
+    iframe {
+        width: 375px;
+        height: 260px;
+    }
+}
+
+@media  (max-width: 360px) {
+    .forward {
+        position: absolute;
         top: 55%;
         right: 28%;
     }
