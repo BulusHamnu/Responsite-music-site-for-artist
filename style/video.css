@@ -13,7 +13,7 @@ body {
 }
 
 iframe {
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .arrows {
@@ -49,49 +49,80 @@ iframe {
     display: block;
 }
 
-@media (max-width: 1440px) {
-    iframe {
-        width: 600px;
-        height: 400px;
-    }
-}
 
-@media (max-width:768px) {
+@media screen and (max-width: 900px) {
     .forward {
-        margin-left: 1rem;
+        margin-left: .5rem;
     }
     .backward {
-        margin-right: 1rem;
+        margin-right: .5rem;
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .forward {
+        position: absolute;
+        top: 55%;
+        right: 30%;
+    }
+    .backward {
+        position: absolute;
+        top: 55%;
+        left: 30%;
+    }
+    iframe {
+        width: 500px;
+        height: 300px;
     }
 }
 
 
-@media  (max-width: 430px) {
+
+@media screen and (max-width: 600px) {
     .forward {
         position: absolute;
-        top: 45%;
+        top: 50%;
+        right: 30%;
+    }
+    .backward {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+    }
+    iframe {
+        width: 350px;
+        height: 255px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .forward {
+        position: absolute;
+        top: 50%;
         right: 28%;
     }
     .backward {
         position: absolute;
-        top: 45%;
+        top: 50%;
         left: 28%;
     }
     iframe {
-        width: 375px;
-        height: 260px;
+        width: 350px;
+        height: 255px;
     }
 }
 
-@media  (max-width: 360px) {
+@media screen and (max-width: 360px) {
     .forward {
         position: absolute;
-        top: 55%;
+        top: 55.5%;
         right: 28%;
     }
     .backward {
         position: absolute;
-        top: 55%;
+        top: 55.5%;
         left: 28%;
     }
     iframe {

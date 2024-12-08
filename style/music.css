@@ -113,6 +113,7 @@ main {
 }
 .links-of-songs div a {
     transition: background-color 0.2s linear;
+    margin-bottom: .5rem;
 }
 .singles {
     display: flex;
@@ -156,11 +157,15 @@ main {
     .backward {
         margin-right: 0;
     }
+
+    .links-of-songs div a {
+        margin-bottom: .8rem;
+    }
     
 }
 
 
-@media (max-width: 430px) {
+@media (max-width: 600px) {
     main {
         flex-direction: column;
         justify-content: space-between;
