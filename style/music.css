@@ -11,10 +11,6 @@ main {
     padding: 2rem;
     gap: 2rem;
     justify-content: center;
-    /* margin-top: 1rem; */
-    /* align-items: center; */
-    /* flex-direction: column; */
-    /* width: 18rem; */
     height: 25rem;
     border-radius: 0.3rem;
     font-family: "Inria Sans",sans-serif;
@@ -42,7 +38,6 @@ main {
 }
 .link-headertext {
     margin-top: 1.5em;
-    /* margin-bottom: 1.5em; */
     font-size: 15px;
 }
 .icon-img {
@@ -50,7 +45,6 @@ main {
     width: 2rem;
     border-radius: 0.3rem;
     box-shadow: 0.05rem 0.05rem white;
-    /* margin: 1rem; */
 }
 .icon-img img{
     height: 100%;
@@ -60,7 +54,6 @@ main {
     display: flex;
     align-items: center;
     background-color: #9EB8D9;
-    /* width: 13rem; */
     height: 3rem;
     cursor: pointer;
     border-radius: 0.3rem;
@@ -92,10 +85,11 @@ main {
 .links-of-songs {
     background-color: #9EB8D9;
     width: 12rem;
+    max-height: 55rem;
     text-align: center;
     margin-top: 1rem;
     padding-bottom: 3rem;
-    
+    margin-bottom: 1rem;
 }
 .links-of-songs h4 {
     margin-bottom: 1rem;
@@ -136,11 +130,20 @@ main {
     transition: background-color 0.2s linear;
 }
 
+
+
+@media (max-width:992px) {
+    main {
+        gap: 2rem;
+    }
+}
+
+
 @media (max-width:768px) {
     main {
         flex-direction: column;
         justify-content: space-between;
-        gap: 5rem;
+        gap: 4rem;
         align-items: center;
     }
     .links-of-songs {
@@ -158,6 +161,10 @@ main {
         margin-right: 0;
     }
 
+    .links-of-songs {
+        margin-bottom: 2rem;
+
+    }
     .links-of-songs div a {
         margin-bottom: .8rem;
     }
@@ -165,7 +172,7 @@ main {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 576px) {
     main {
         flex-direction: column;
         justify-content: space-between;
@@ -175,13 +182,14 @@ main {
     .music-link {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        padding: 0;
     }
     .song-cover {
-        width: 20rem;
-        height: 20rem;
+        width: 100%;
+        height: 18rem;
     }
     .right-side {
-        width: 20rem;
         margin-bottom: 4rem;
     }
     .song-container {
@@ -192,8 +200,11 @@ main {
         margin-bottom: 1.5em;
         font-size: 16px;
     }
+    .music-section {
+        width: 17rem;
+    }
     .links-of-songs {
-        width: 20rem;
+        /* width: 17rem; */
         display: flex;
         flex-direction: column;
         font-size: 1.5rem;
@@ -201,23 +212,45 @@ main {
 }
 
 
-@media (max-width: 360px) {
-    .links-of-songs {
-        width: 17rem;
+@media (max-width: 300px) {
+    main {
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 25rem;
+        align-items: center;
+    }
+    .music-link {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        padding: 0;
     }
     .song-cover {
-        width: 17rem;
-        height: 17rem;
+        width: 100%;
+        height: 20rem;
     }
     .right-side {
-        width: 17rem;
+        margin-bottom: 4rem;
+    }
+    .song-container {
+        margin-top: 25rem;
     }
     .link-headertext {
         margin-top: 1.5em;
-        /* margin-bottom: 1.5em; */
-        font-size: 15px;
+        margin-bottom: 1.5em;
+        font-size: 16px;
+    }
+    .music-section {
+        width: 17rem;
+    }
+    .links-of-songs {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
     }
 }
+
+
+
 

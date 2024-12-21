@@ -18,46 +18,48 @@
     <link rel="stylesheet" href="/style/main.css">
 </head>
 <body>
-    <header>
-        <nav class="side-nav main-nav">
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="music.html">MUSIC</a></li>
-                <li><a href="video.html">VIDEOS</a></li>
-            </ul>
-            <div class="close-btn"><img src="/images/icons/close.png" alt=""></div>
-        </nav>
-        <div class="backdrop"></div>
-        <nav class="main-nav main-bar">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="150" height="150" class="smiley-face">
-                <!-- Face -->
-                <circle cx="50" cy="50" r="45" fill="#9EB8D9" stroke="black" stroke-width="2" />
-                
-                <!-- Eyes -->
-                <circle cx="35" cy="40" r="5" fill="black" />
-                <circle cx="65" cy="40" r="5" fill="black" />
-                
-                <!-- Mouth (sad) -->
-                <path d="M30,60 Q50,80 70,60" stroke="black" stroke-width="3" fill="transparent" />
-             </svg>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="music.html">MUSIC</a></li>
-                <li><a href="video.html">VIDEOS</a></li>
-            </ul>
-            <div class="menu-button open-btn"><img src="/images/icons/menu.png" alt=""></div>
-        </nav>
-    </header>
-    <main>
-        <section class="slider">
-            <span class="arrows backward"><img  src="/images/icons/arrow-back.svg" alt="">
-            </span>
-            <div class="slides">
-                
-            </div>
-            <span class="arrows forward"><img src="/images/icons/arrow-forward.svg" alt="">
-        </section>
-    </main>
+    <div class="wrapper">
+        <header>
+            <nav class="side-nav main-nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="music.html">MUSIC</a></li>
+                    <li><a href="video.html">VIDEOS</a></li>
+                </ul>
+                <div class="close-btn"><img src="/images/icons/close.png" alt=""></div>
+            </nav>
+            <div class="backdrop"></div>
+            <nav class="main-nav main-bar">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="150" height="150" class="smiley-face">
+                    <!-- Face -->
+                    <circle cx="50" cy="50" r="45" fill="#9EB8D9" stroke="black" stroke-width="2" />
+                    
+                    <!-- Eyes -->
+                    <circle cx="35" cy="40" r="5" fill="black" />
+                    <circle cx="65" cy="40" r="5" fill="black" />
+                    
+                    <!-- Mouth (sad) -->
+                    <path d="M30,60 Q50,80 70,60" stroke="black" stroke-width="3" fill="transparent" />
+                 </svg>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="music.html">MUSIC</a></li>
+                    <li><a href="video.html">VIDEOS</a></li>
+                </ul>
+                <div class="menu-button open-btn"><img src="/images/icons/menu.png" alt=""></div>
+            </nav>
+        </header>
+        <main>
+            <section class="slider">
+                <span class="arrows backward"><img  src="/images/icons/arrow-back.svg" alt="">
+                </span>
+                <div class="slides">
+                    
+                </div>
+                <span class="arrows forward"><img src="/images/icons/arrow-forward.svg" alt="">
+            </section>
+        </main>
+    </div>
     <script src="/src/nav.js"></script>
     <script src="src/video.js"></script>
 </body>

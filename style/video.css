@@ -24,12 +24,12 @@ iframe {
     justify-content: center;
     align-items: center;
     padding: 0.5rem;
-    border-radius: 50%;
-    transition: background-color 0.3s ease;
+    background-color: #a2bcdf ;
+    transition: background-color 0.2s ease;
     
 }
 .arrows:hover {
-    background-color: #9EB8D9;
+    background-color: #537db3;
 }
 .backward {
     margin-right: 5rem;
@@ -83,12 +83,12 @@ iframe {
 @media screen and (max-width: 600px) {
     .forward {
         position: absolute;
-        top: 50%;
+        top: 55%;
         right: 30%;
     }
     .backward {
         position: absolute;
-        top: 50%;
+        top: 55%;
         left: 30%;
     }
     iframe {
@@ -114,21 +114,21 @@ iframe {
     }
 }
 
-@media screen and (max-width: 360px) {
+
+
+@media screen and (max-width:350px) {
     .forward {
         position: absolute;
-        top: 55.5%;
         right: 28%;
     }
     .backward {
         position: absolute;
-        top: 55.5%;
         left: 28%;
     }
     iframe {
-        width: 350px;
-        height: 255px;
-    }
+        width: 280px;
+        height: 225px;
+    } 
 }
 
 

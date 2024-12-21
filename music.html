@@ -14,87 +14,89 @@
     <link rel="stylesheet" href="/style/music.css">
 </head>
 <body>
-    <header>
-        <nav class="side-nav main-nav">
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="music.html">MUSIC</a></li>
-                <li><a href="video.html">VIDEOS</a></li>
-            </ul>
-            <div class="close-btn"><img src="/images/icons/close.png" alt=""></div>
-        </nav>
-        <div class="backdrop"></div>
-        <nav class="main-nav main-bar">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="150" height="150" class="smiley-face">
-                <!-- Face -->
-                <circle cx="50" cy="50" r="45" fill="#9EB8D9" stroke="black" stroke-width="2" />
-                
-                <!-- Eyes -->
-                <circle cx="35" cy="40" r="5" fill="black" />
-                <circle cx="65" cy="40" r="5" fill="black" />
-                
-                <!-- Mouth (sad) -->
-                <path d="M30,60 Q50,80 70,60" stroke="black" stroke-width="3" fill="transparent" />
-             </svg>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="music.html">MUSIC</a></li>
-                <li><a href="video.html">VIDEOS</a></li>
-            </ul>
-            <div class="menu-button open-btn"><img src="/images/icons/menu.png" alt=""></div>
-        </nav>
-    </header>
-    <main>
-        <div style="text-align: center;">
-            <p class="link-headertext">Checkout Demy Thekidd new release!</p>
-            <section class="music-link">
-                <div class="song-container">
-                    <div class="song-cover"><img class="songCoverArt" src="" alt="Song Cover"></div>
-                    <p class="text song-name songName"></p>
+    <div class="wrapper">
+        <header>
+            <nav class="side-nav main-nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="music.html">MUSIC</a></li>
+                    <li><a href="video.html">VIDEOS</a></li>
+                </ul>
+                <div class="close-btn"><img src="/images/icons/close.png" alt=""></div>
+            </nav>
+            <div class="backdrop"></div>
+            <nav class="main-nav main-bar">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="150" height="150" class="smiley-face">
+                    <!-- Face -->
+                    <circle cx="50" cy="50" r="45" fill="#9EB8D9" stroke="black" stroke-width="2" />
+                    
+                    <!-- Eyes -->
+                    <circle cx="35" cy="40" r="5" fill="black" />
+                    <circle cx="65" cy="40" r="5" fill="black" />
+                    
+                    <!-- Mouth (sad) -->
+                    <path d="M30,60 Q50,80 70,60" stroke="black" stroke-width="3" fill="transparent" />
+                 </svg>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="music.html">MUSIC</a></li>
+                    <li><a href="video.html">VIDEOS</a></li>
+                </ul>
+                <div class="menu-button open-btn"><img src="/images/icons/menu.png" alt=""></div>
+            </nav>
+        </header>
+        <main>
+            <div style="text-align: center;" class="music-section">
+                <p class="link-headertext">Checkout Demy Thekidd new release!</p>
+                <section class="music-link">
+                    <div class="song-container">
+                        <div class="song-cover"><img class="songCoverArt" src="" alt="Song Cover"></div>
+                        <p class="text song-name songName"></p>
+                    </div>
+                    <div class="right-side">
+                        <a href="" class="a-link spotifylink" >
+                            <div class="link">
+                                <div class="icon-img"><img src="/images/icons/spotify.jpg" alt="Spotify"></div>
+                                <p >Stream on Spotify</p>
+                            </div>
+                        </a>
+                        <a href="#" class="a-link applelink">
+                            <div class="link">
+                                <div class="icon-img"><img src="/images/icons/apple.jpg" alt="AppleMusic"></div>
+                                <p >Stream on AppleMusic</p>
+                            </div>
+                        </a>
+                        <a href="" class="a-link audiomacklink" >
+                            <div class="link">
+                                <div class="icon-img"><img src="/images/icons/audioMack.jpg" alt="AudioMack"></div>
+                                <p >Stream on AudioMack</p>
+                            </div>
+                        </a>
+                        <a href="#" class="a-link soundcloudlink">
+                            <div class="link">
+                                <div class="icon-img"><img src="/images/icons/soundCloud.jpg" alt="SoundCloud"></div>
+                                <p >Stream on SoundCloud</p>
+                            </div>
+                        </a>
+                        <a href="#" class="a-link youtubelink" >
+                            <div class="link">
+                                <div class="icon-img"><img src="/images/icons/youtube.jpg" alt="Youtube"></div>
+                                <p >Stream on YouTube</p>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+            </div>
+            <section class="links-of-songs">
+                <div class="singles">
+                    <h4 class="first-h2">SINGLES</h4>
                 </div>
-                <div class="right-side">
-                    <a href="" class="a-link spotifylink" >
-                        <div class="link">
-                            <div class="icon-img"><img src="/images/icons/spotify.jpg" alt="Spotify"></div>
-                            <p >Stream on Spotify</p>
-                        </div>
-                    </a>
-                    <a href="#" class="a-link applelink">
-                        <div class="link">
-                            <div class="icon-img"><img src="/images/icons/apple.jpg" alt="AppleMusic"></div>
-                            <p >Stream on AppleMusic</p>
-                        </div>
-                    </a>
-                    <a href="" class="a-link audiomacklink" >
-                        <div class="link">
-                            <div class="icon-img"><img src="/images/icons/audioMack.jpg" alt="AudioMack"></div>
-                            <p >Stream on AudioMack</p>
-                        </div>
-                    </a>
-                    <a href="#" class="a-link soundcloudlink">
-                        <div class="link">
-                            <div class="icon-img"><img src="/images/icons/soundCloud.jpg" alt="SoundCloud"></div>
-                            <p >Stream on SoundCloud</p>
-                        </div>
-                    </a>
-                    <a href="#" class="a-link youtubelink" >
-                        <div class="link">
-                            <div class="icon-img"><img src="/images/icons/youtube.jpg" alt="Youtube"></div>
-                            <p >Stream on YouTube</p>
-                        </div>
-                    </a>
+                <div class="albums">
+                    <h4>ALBUM AND EPs</h4>
                 </div>
             </section>
-        </div>
-        <section class="links-of-songs">
-            <div class="singles">
-                <h4 class="first-h2">SINGLES</h4>
-            </div>
-            <div class="albums">
-                <h4>ALBUM AND EPs</h4>
-            </div>
-        </section>
-    </main>
+        </main>
+    </div>
     <script src="/src/nav.js"></script>
     <script src="/src/music.js" type="module"></script>
 </body>
