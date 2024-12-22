@@ -24,7 +24,7 @@ export const musicLink = [
         audioMack : `https://audiomack.com/demy-thekidd/song/loml?share-user-id=26566107`
     },
     {   name : "genesis Ep",
-        image : `../images/CoverArt/genisisEpArt.png`,
+        image : `../images/CoverArt/genisisEpArt (1).jpg`,
         appleMusic : `https://music.apple.com/us/album/genesis-ep/1769621984`,
         spotify : `https://open.spotify.com/album/0bKKyaVBM6DDqSdkgIaWGh?si=Jml5E2gdTPWvpfIWEd4xHA`,
         youtube : `https://youtube.com/playlist?list=OLAK5uy_l5cSksgxd5BO9TULgN4n9aRsqN6pYd6Tg&si=vebR3mg9106yGhBl`,
