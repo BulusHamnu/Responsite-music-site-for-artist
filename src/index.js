@@ -33,9 +33,14 @@ closePopup.addEventListener("click", function() {
 
                 contactForm.classList.remove("show-popup-entry")
                 backdrop.classList.toggle("active");
+            } else {
+                alert("there was an error submitting the form! please try again")
+                contactForm.reset();
+                contactForm.classList.remove("show-popup-entry")
+                backdrop.classList.toggle("active");
             }
         
-        }).catch(err => { alert("there was an error submitting the form! please try again")})
+        }).catch(err => { console.error(err); });
 
 
  })
