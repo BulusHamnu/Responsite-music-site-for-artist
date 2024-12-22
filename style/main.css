@@ -94,6 +94,9 @@ li a {
 a:hover {
     background-color: white;
 }
+a.active {
+    border: 2px solid rgb(255, 255, 255);
+}
 main {
     height: 100%;
     flex: 1;
@@ -190,7 +193,7 @@ footer p {
     margin-top: 3rem;
 }
 .side-nav ul li {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 .backdrop {
     position: fixed;

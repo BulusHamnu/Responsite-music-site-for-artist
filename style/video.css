@@ -100,13 +100,13 @@ iframe {
 @media screen and (max-width: 430px) {
     .forward {
         position: absolute;
-        top: 50%;
-        right: 28%;
+        top: 54%;
+        right: 27%;
     }
     .backward {
         position: absolute;
-        top: 50%;
-        left: 28%;
+        top: 54%;
+        left: 27%;
     }
     iframe {
         width: 350px;
