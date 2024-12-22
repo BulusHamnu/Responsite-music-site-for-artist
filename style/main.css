@@ -324,7 +324,6 @@ form textarea:valid {
     form {
         width: 21rem;
         height: 33rem;
-        top: 40%;
     }
     form input {
         height: 2.5rem;
