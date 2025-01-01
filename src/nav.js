@@ -14,3 +14,9 @@ const backdrop = document.querySelector(".backdrop");
    sideNav.classList.toggle("navActive");
    backdrop.classList.toggle('active');
  });
+
+ backdrop.addEventListener("click", function() {
+   sideNav.classList.remove("navActive");
+   backdrop.classList.remove('active');
+   contactForm.classList.remove("show-popup-entry")
+ });
