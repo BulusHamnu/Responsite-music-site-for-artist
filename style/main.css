@@ -117,6 +117,7 @@ h1 {
     font-weight: 500;
     color: black;
     line-height: 1.6;
+    max-width: 30rem;
 }
 .contactBtn {
     height: 2.5rem;
@@ -331,6 +332,9 @@ form textarea:valid {
     form input {
         height: 2.5rem;
     }
+    .hero-section {
+        margin: 1.2rem 2rem;
+    }
 }
 
 
@@ -340,7 +344,12 @@ form textarea:valid {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 1.2rem 1rem;
     }
+    .hero-section p {
+        margin-bottom: 4em;
+    }
+    
     .main-bar ul {
         display: none;
 
@@ -356,6 +365,9 @@ form textarea:valid {
     h5 {
         display: block;
         margin-left: 2rem;
+    }
+    .footer-icons {
+        margin-top: 3rem;
     }
     
 }

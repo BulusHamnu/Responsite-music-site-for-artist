@@ -19,7 +19,7 @@ closePopup.addEventListener("click", function() {
  contactForm.addEventListener("submit", function(event) {
     event.preventDefault();
     let data = new FormData(event.target);
-    fetch("https:formspree.io/f/xgvezbly", {
+    fetch("https://formspree.io/f/xgvezbly", { 
       method: "POST",
       body: data,
       headers: {
